@@ -1,0 +1,34 @@
+#about-section {
+    margin: 3% auto;
+}
+
+.project-columns {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1% auto;
+}
+
+#project-title {
+    text-align: center;
+    width: 100%;
+    background-color: #454545;
+    color: firebrick;
+    margin: 1% auto;
+}
+
+#more-button {
+    text-align: center;
+    border: solid 1px;
+    width: 25%;
+    margin: 1% auto;
+}
+
+.project-columns div {
+    border: solid blue 1px;
+    width: 32%;
+    min-width: 300px;
+    text-align: center;
+    /* flex-grow: 1; */
+}
