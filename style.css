@@ -34,6 +34,10 @@ svg {
     list-style-type: none;
 }
 
+.bold {
+    font-weight: 1000;
+}
+
 #about-section {
     min-height: 8rem;
     margin: 48px auto 0px;
@@ -82,7 +86,13 @@ svg {
     border: solid 1px;
     width: 25%;
     margin: 1% auto;
+    flex-direction: row;
 }
+
+#more-link {
+    /* color: #454545; */
+    text-decoration: none;
+  }
 
 .project-columns div {
     border: solid 1px;

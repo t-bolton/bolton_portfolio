@@ -15,14 +15,15 @@
         <div id="top-row">
             <h1>Tanner Bolton</h1>
             <nav>
-                <ul id="top-navigation">
+                <ul id="top-navigation" style="align-items: flex-end;">
                     <li>
-                        <a href="contact.html">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <a href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="36" height="36" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <circle cx="12" cy="7" r="4"></circle>
-                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
-                                </svg><span>Contact</span>
+                                <polyline points="5 12 3 12 12 3 21 12 19 12"></polyline>
+                                <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
+                                <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
+                             </svg><span class="bold">Home</span>
                         </a>
                     </li>
                     <li>
@@ -43,6 +44,15 @@
                                 <path d="M9 12h6"></path>
                                 <path d="M9 16h6"></path>
                              </svg><span>Resume</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                </svg><span>Contact</span>
                         </a>
                     </li>
                 </ul>
@@ -76,15 +86,18 @@
                 <h3 class="project-subtitle">- Number Guessing Game! -</h3>
             </div>
         </div>
-        <div id="more-button">
-            <h4>MORE</h4>
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M6 10l6 6l6 -6h-12"></path>
-                 </svg>
-            </div>
-        </div>    
+        <a href="projects.html" id="more-link">
+            <div id="more-button">
+                <h4>MORE</h4>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 18l6 -6l-6 -6v12"></path>
+                    </svg>
+                </div>
+            </div> 
+        </a>
+             
     </section>
     <footer>
         <div id="email">
